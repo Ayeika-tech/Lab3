@@ -4,7 +4,7 @@ public class CruiseShip extends Ship {
 
     public CruiseShip(String name1, String year1, int maxPass) {
         super(name1, year1);
-        maxPassengers = maxPass;
+        this.maxPassengers = maxPass;
     }
 
     public void setMaxPassengers(int mPassengers) {

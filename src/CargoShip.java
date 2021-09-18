@@ -3,10 +3,10 @@ public class CargoShip  extends Ship {
 
     public CargoShip(String nameShip, String yearBuilt, int tonsCap){
         super(nameShip, yearBuilt);
-        tonsCapacity = tonsCap;
+        this.tonsCapacity = tonsCap;
     }
     public void setTonsCapacity(int tonsCap){
-        tonsCapacity = tonsCap;
+        this.tonsCapacity = tonsCap;
     }
     public int getTonscapacity(){
         return tonsCapacity;
